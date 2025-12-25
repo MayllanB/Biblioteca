@@ -23,4 +23,4 @@ FASE 3 - JS
 
 pensei em colocar o site para dar bom dia, boa tarde e boa noite, de acordo com a sua hora local, e muda o layout seguindo o mesmo processo, por exemplo, de manhã um azul, e asim por diante
 
-OBS: as cores são temporarias
+OBS: as cores dos livros e os nomes também são temporarias
