@@ -1,0 +1,81 @@
+/* reset basico */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+  background-color: #f0f0f0;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.titulo {
+  font-size: 2rem;
+}
+
+.navegacao {
+  margin-top: 1rem;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.3rem;
+}
+
+li:hover {
+    cursor: pointer;
+  text-decoration: underline;
+  transform: scale(1.1);
+  transition: transform 0.3s ease 0s;
+}
+
+.conteudo {
+  padding: 2rem;
+  border: 2px solid #000;
+  margin: 30px auto;
+  width: 650px;
+  background-color: #aa5810;
+
+}
+
+span {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #000;
+  border: 2px solid #000;
+  background-color: #fff;
+  padding: 2px 8px;
+}
+
+.romance, .psicologia, .tecnologias {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  border: 2px solid #000;
+  display: flex;
+  padding: 10px 0px;
+}
+
+.livro{
+    border: 2px solid #000;
+    width: 50px;
+    height: 150px;
+    margin: auto;
+    background-color: #9acd32;
+}
+
+.livro:hover {
+    cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: transform 0.3s ease 0s;
+}
